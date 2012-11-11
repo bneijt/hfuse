@@ -43,10 +43,6 @@ module System.Fuse
       -- * File modes
     , entryTypeToFileMode -- :: EntryType -> FileMode
     , fileModeToEntryType -- :: FileMode -> EntryType
-    , OpenMode(..)
-    , OpenFileFlags(..)
-    , intersectFileModes -- :: FileMode
-    , unionFileModes -- :: FileMode
     ) where
 
 import Prelude hiding ( Read )
